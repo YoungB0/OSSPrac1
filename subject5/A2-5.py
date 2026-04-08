@@ -1,3 +1,8 @@
-print("이름을 입력하세요: 조정민")
-print("학번을 입력하세요: 2022112047")
+name = input("이름을 입력하세요: ")
+student_id = input("학번을 입력하세요: ")
+student_major = input("학과를 입력하세요: ")
 
+print("\n<출력>")
+print("이름:", name)
+print("학번:", student_id)
+print("학과:", student_major)
